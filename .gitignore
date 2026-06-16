@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local-only folders
+local/
+private/
+secrets/
+docs/private/
+docs/local/
+
+# Private/raw data
+data/private/
+data/raw/
+
+# Temporary outputs
+outputs/private/
+tmp/
+temp/
+
+# Model/checkpoint artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+
+# VS Code: keep workspace settings private by default.
+# Commit explicit examples as docs or .env.example-style files instead.
+.vscode/
