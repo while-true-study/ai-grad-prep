@@ -40,6 +40,17 @@ Each study file should make the learning target clear:
 - Notes on environment assumptions such as CPU/CUDA availability
 - Outputs only when they are small, useful, and safe to publish
 
+## Study Log
+
+| Day | Date | Topic | Output |
+|---:|---|---|---|
+| Day 01 | 2026-06-16 ~ 2026-06-17 | D2L 2.1 Data Manipulation | `d2l/02_preliminaries/02_01_data_manipulation.ipynb` |
+
+Next:
+
+- D2L 2.2 Data Preprocessing
+- D2L 2.3 Linear Algebra
+
 ## Public Repository Safety
 
 Do not commit credentials, API keys, tokens, private datasets, personal contact information, local-only paths, large checkpoints, or raw experiment outputs.
