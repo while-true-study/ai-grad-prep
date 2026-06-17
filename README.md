@@ -47,6 +47,7 @@ Each study file should make the learning target clear:
 | Day 01 | 2026-06-16 ~ 2026-06-17 | D2L 2.1 Data Manipulation | `d2l/02_preliminaries/02_01_data_manipulation.ipynb` |
 | Day 02 | 2026-06-17 | D2L 2.2 Data Preprocessing: CSV sample creation, pandas DataFrame inspection, input/target split, missing value checks, numeric imputation, one-hot encoding, and DataFrame/Series to PyTorch Tensor conversion | `d2l/02_preliminaries/02_02_Data Preprocessing.ipynb`, `d2l/data/house_tiny.csv` |
 | Day 02 | 2026-06-17 | D2L 2.3 Linear Algebra: scalars, vectors, matrices, tensors, shape/ndim/numel checks, elementwise operations, reductions by dimension, dot product, matrix-vector product, matrix-matrix product, L1/L2 norms, and Frobenius norm | `d2l/02_preliminaries/02_03_linear_algebra.ipynb` |
+| Day 03 | 2026-06-17 ~ 2026-06-18 | D2L 2.4 Calculus: numerical differentiation and PyTorch autograd comparison, gradient/partial derivative/chain rule summary, a simple linear-model gradient descent update flow, and three PyTorch-style exercises with a link to the original D2L exercises | `d2l/02_preliminaries/02_04_Calculus.ipynb` |
 
 Next:
 
