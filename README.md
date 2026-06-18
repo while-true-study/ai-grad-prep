@@ -48,6 +48,7 @@ Each study file should make the learning target clear:
 | Day 02 | 2026-06-17 | D2L 2.2 Data Preprocessing: CSV sample creation, pandas DataFrame inspection, input/target split, missing value checks, numeric imputation, one-hot encoding, and DataFrame/Series to PyTorch Tensor conversion | `d2l/02_preliminaries/02_02_Data Preprocessing.ipynb`, `d2l/data/house_tiny.csv` |
 | Day 02 | 2026-06-17 | D2L 2.3 Linear Algebra: scalars, vectors, matrices, tensors, shape/ndim/numel checks, elementwise operations, reductions by dimension, dot product, matrix-vector product, matrix-matrix product, L1/L2 norms, and Frobenius norm | `d2l/02_preliminaries/02_03_linear_algebra.ipynb` |
 | Day 03 | 2026-06-17 ~ 2026-06-18 | D2L 2.4 Calculus: numerical differentiation and PyTorch autograd comparison, gradient/partial derivative/chain rule summary, a simple linear-model gradient descent update flow, and three PyTorch-style exercises with a link to the original D2L exercises | `d2l/02_preliminaries/02_04_Calculus.ipynb` |
+| Day 04 | 2026-06-18 ~ 2026-06-19 | D2L 2.5 Automatic Differentiation: PyTorch autograd flow, `requires_grad`, `backward()`, `.grad`, gradient accumulation and `zero_grad()`, scalar vs vector outputs, why `y.sum().backward()` is used, `detach()`, chain rule and computation graph, `loss.backward()` vs `optimizer.step()`, and the roles of `w`, `b`, `learning_rate`, and `gradient` in parameter updates | `d2l/02_preliminaries/02_05_Automatic Differentiation.ipynb` |
 
 Next:
 
