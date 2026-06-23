@@ -50,10 +50,11 @@ Each study file should make the learning target clear:
 | Day 03 | 2026-06-17 ~ 2026-06-18 | D2L 2.4 Calculus: numerical differentiation and PyTorch autograd comparison, gradient/partial derivative/chain rule summary, a simple linear-model gradient descent update flow, and three PyTorch-style exercises with a link to the original D2L exercises | `d2l/02_preliminaries/02_04_Calculus.ipynb` |
 | Day 04 | 2026-06-18 ~ 2026-06-19 | D2L 2.5 Automatic Differentiation: PyTorch autograd flow, `requires_grad`, `backward()`, `.grad`, gradient accumulation and `zero_grad()`, scalar vs vector outputs, why `y.sum().backward()` is used, `detach()`, chain rule and computation graph, `loss.backward()` vs `optimizer.step()`, and the roles of `w`, `b`, `learning_rate`, and `gradient` in parameter updates | `d2l/02_preliminaries/02_05_Automatic Differentiation.ipynb` |
 | Day 05 | 2026-06-19 ~ 2026-06-20 | D2L 2.6 Probability and Statistics: probability vs statistics, coin-toss simulation, multinomial sampling, law of large numbers, sample space/event/random variable, joint and conditional probability, Bayes theorem and base rate, independence and conditional independence, expectation, variance, covariance, and aleatoric vs epistemic uncertainty | `d2l/02_preliminaries/02_06_Probability and Statistics.ipynb` |
+| Day 06 | 2026-06-23 | D2L 3.1 Linear Regression: notebook scaffold with study goals, environment setup, and implementation checklist for synthetic data generation, minibatch loading, training loop, and parameter comparison | `d2l/03_linear_ne/03_01_Linear Regression.ipynb` |
 
 Next:
 
-- Continue D2L preliminaries
+- Continue D2L linear neural networks
 
 ## Public Repository Safety
 
