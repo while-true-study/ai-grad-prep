@@ -6,6 +6,7 @@ Current scope:
 
 - D2L-based PyTorch basics
 - Tensor creation, shape handling, indexing, broadcasting, and basic GPU checks
+- Synthetic regression data generation and minibatch loading with PyTorch
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -25,10 +26,10 @@ For CUDA-enabled PyTorch installs, use the command recommended by the official P
 
 ```text
 .
-├── d2l/                 # D2L-based practice files
-├── docs/                # Public repository conventions
-├── requirements.txt     # Minimal Python dependency list
-└── README.md
+|-- d2l/                 # D2L-based practice files
+|-- docs/                # Public repository conventions
+|-- requirements.txt     # Minimal Python dependency list
+`-- README.md
 ```
 
 ## Study Log Format
@@ -52,6 +53,7 @@ Each study file should make the learning target clear:
 | Day 05 | 2026-06-19 ~ 2026-06-20 | D2L 2.6 Probability and Statistics: probability vs statistics, coin-toss simulation, multinomial sampling, law of large numbers, sample space/event/random variable, joint and conditional probability, Bayes theorem and base rate, independence and conditional independence, expectation, variance, covariance, and aleatoric vs epistemic uncertainty | `d2l/02_preliminaries/02_06_Probability and Statistics.ipynb` |
 | Day 06 | 2026-06-23 | D2L 3.1 Linear Regression: notebook scaffold with study goals, environment setup, and implementation checklist for synthetic data generation, minibatch loading, training loop, and parameter comparison | `d2l/03_linear_ne/03_01_Linear Regression.ipynb` |
 | Day 07 | 2026-06-28 | D2L 3.2 Object-Oriented Design for Implementation: object-oriented training structure, D2L utility helpers, `Module`, `DataModule`, `Trainer`, `training_step`, `configure_optimizers`, dataloader flow, and the separation of data, model, loss, optimizer, and training loop responsibilities | `d2l/03_linear_ne/03_02_Object-Oriented Design for Implementation.ipynb` |
+| Day 08 | 2026-07-02 | D2L 3.3 Synthetic Regression Data: synthetic feature and label generation with `y = Xw + b + noise`, train/validation split, why `w.reshape(-1, 1)` is used, manual minibatch sampling, `TensorDataset`, `DataLoader`, and batch shape checks | `d2l/03_linear_ne/03_03_Synthetic Regression Data.ipynb` |
 
 Next:
 
