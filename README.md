@@ -8,6 +8,7 @@ Current scope:
 - Tensor creation, shape handling, indexing, broadcasting, and basic GPU checks
 - Synthetic regression data generation and minibatch loading with PyTorch
 - Linear regression training loops implemented from scratch
+- Concise linear regression implementation with `nn.Linear`, `nn.MSELoss`, and `torch.optim.SGD`
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -56,10 +57,11 @@ Each study file should make the learning target clear:
 | Day 07 | 2026-06-28 | D2L 3.2 Object-Oriented Design for Implementation: object-oriented training structure, D2L utility helpers, `Module`, `DataModule`, `Trainer`, `training_step`, `configure_optimizers`, dataloader flow, and the separation of data, model, loss, optimizer, and training loop responsibilities | `d2l/03_linear_ne/03_02_Object-Oriented Design for Implementation.ipynb` |
 | Day 08 | 2026-07-02 | D2L 3.3 Synthetic Regression Data: synthetic feature and label generation with `y = Xw + b + noise`, train/validation split, why `w.reshape(-1, 1)` is used, manual minibatch sampling, `TensorDataset`, `DataLoader`, and batch shape checks | `d2l/03_linear_ne/03_03_Synthetic Regression Data.ipynb` |
 | Day 09 | 2026-07-03 | D2L 3.4 Linear Regression Implementation from Scratch: manual parameter initialization, linear model definition, squared loss, SGD updates with `torch.no_grad()`, gradient reset, epoch training loop, validation loss checks, and learned-parameter comparison against `true_w` and `true_b` | `d2l/03_linear_ne/03_04_Linear Regression Implementation from Scratch.ipynb` |
+| Day 10 | 2026-07-04 | D2L 3.5 Concise Implementation of Linear Regression: replacing manual `w`, `b`, squared loss, and SGD updates with `nn.Linear`, `nn.MSELoss`, `torch.optim.SGD`, and `DataLoader` while preserving the train loop flow of prediction, loss calculation, backpropagation, and parameter updates | `d2l/03_linear_ne/03_05_Concise Implementation of Linear Regression.ipynb` |
 
 Next:
 
-- Continue D2L linear neural networks with concise, reproducible notebooks
+- Continue D2L linear neural networks with generalization and regularization topics
 
 ## Public Repository Safety
 
