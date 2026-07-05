@@ -9,6 +9,7 @@ Current scope:
 - Synthetic regression data generation and minibatch loading with PyTorch
 - Linear regression training loops implemented from scratch
 - Concise linear regression implementation with `nn.Linear`, `nn.MSELoss`, and `torch.optim.SGD`
+- Generalization concepts including training error, validation/generalization error, IID assumptions, model complexity, underfitting, overfitting, and polynomial regression checks
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -58,10 +59,11 @@ Each study file should make the learning target clear:
 | Day 08 | 2026-07-02 | D2L 3.3 Synthetic Regression Data: synthetic feature and label generation with `y = Xw + b + noise`, train/validation split, why `w.reshape(-1, 1)` is used, manual minibatch sampling, `TensorDataset`, `DataLoader`, and batch shape checks | `d2l/03_linear_ne/03_03_Synthetic Regression Data.ipynb` |
 | Day 09 | 2026-07-03 | D2L 3.4 Linear Regression Implementation from Scratch: manual parameter initialization, linear model definition, squared loss, SGD updates with `torch.no_grad()`, gradient reset, epoch training loop, validation loss checks, and learned-parameter comparison against `true_w` and `true_b` | `d2l/03_linear_ne/03_04_Linear Regression Implementation from Scratch.ipynb` |
 | Day 10 | 2026-07-04 | D2L 3.5 Concise Implementation of Linear Regression: replacing manual `w`, `b`, squared loss, and SGD updates with `nn.Linear`, `nn.MSELoss`, `torch.optim.SGD`, and `DataLoader` while preserving the train loop flow of prediction, loss calculation, backpropagation, and parameter updates | `d2l/03_linear_ne/03_05_Concise Implementation of Linear Regression.ipynb` |
+| Day 11 | 2026-07-05 | D2L 3.6 Generalization: training error vs generalization error, validation-set estimation, IID assumptions, model complexity, underfitting and overfitting, polynomial feature construction, closed-form least-squares fitting with `torch.linalg.lstsq`, and train/validation loss comparison across polynomial degrees | `d2l/03_linear_ne/03_06_Generalization.ipynb` |
 
 Next:
 
-- Continue D2L linear neural networks with generalization and regularization topics
+- Continue D2L linear neural networks with regularization topics such as weight decay
 
 ## Public Repository Safety
 
