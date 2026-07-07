@@ -10,6 +10,7 @@ Current scope:
 - Linear regression training loops implemented from scratch
 - Concise linear regression implementation with `nn.Linear`, `nn.MSELoss`, and `torch.optim.SGD`
 - Generalization concepts including training error, validation/generalization error, IID assumptions, model complexity, underfitting, overfitting, dataset size effects, model selection, and cross-validation
+- Weight decay and L2 regularization notes for controlling model complexity
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -60,10 +61,11 @@ Each study file should make the learning target clear:
 | Day 09 | 2026-07-03 | D2L 3.4 Linear Regression Implementation from Scratch: manual parameter initialization, linear model definition, squared loss, SGD updates with `torch.no_grad()`, gradient reset, epoch training loop, validation loss checks, and learned-parameter comparison against `true_w` and `true_b` | `d2l/03_linear_ne/03_04_Linear Regression Implementation from Scratch.ipynb` |
 | Day 10 | 2026-07-04 | D2L 3.5 Concise Implementation of Linear Regression: replacing manual `w`, `b`, squared loss, and SGD updates with `nn.Linear`, `nn.MSELoss`, `torch.optim.SGD`, and `DataLoader` while preserving the train loop flow of prediction, loss calculation, backpropagation, and parameter updates | `d2l/03_linear_ne/03_05_Concise Implementation of Linear Regression.ipynb` |
 | Day 11 | 2026-07-05 ~ 2026-07-06 | D2L 3.6 Generalization: training error vs generalization error, validation-set estimation, IID assumptions, model complexity, underfitting and overfitting, polynomial feature construction, closed-form least-squares fitting with `torch.linalg.lstsq`, dataset-size effects, model selection, train/validation/test split roles, and simple K-fold cross-validation | `d2l/03_linear_ne/03_06_Generalization.ipynb` |
+| Day 12 | 2026-07-07 | D2L 3.7 Weight Decay: in-progress notes on why overfitting occurs, how weight size affects model complexity, the L2 penalty term, the role of regularization strength `lambda`, and the intuition behind weight decay | `d2l/03_linear_ne/03_07_Weight Decay.ipynb` |
 
 Next:
 
-- Continue D2L linear neural networks with regularization topics such as weight decay
+- Continue D2L 3.7 Weight Decay with implementation examples and concise PyTorch optimizer usage
 
 ## Public Repository Safety
 
