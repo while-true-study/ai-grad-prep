@@ -61,11 +61,11 @@ Each study file should make the learning target clear:
 | Day 09 | 2026-07-03 | D2L 3.4 Linear Regression Implementation from Scratch: manual parameter initialization, linear model definition, squared loss, SGD updates with `torch.no_grad()`, gradient reset, epoch training loop, validation loss checks, and learned-parameter comparison against `true_w` and `true_b` | `d2l/03_linear_ne/03_04_Linear Regression Implementation from Scratch.ipynb` |
 | Day 10 | 2026-07-04 | D2L 3.5 Concise Implementation of Linear Regression: replacing manual `w`, `b`, squared loss, and SGD updates with `nn.Linear`, `nn.MSELoss`, `torch.optim.SGD`, and `DataLoader` while preserving the train loop flow of prediction, loss calculation, backpropagation, and parameter updates | `d2l/03_linear_ne/03_05_Concise Implementation of Linear Regression.ipynb` |
 | Day 11 | 2026-07-05 ~ 2026-07-06 | D2L 3.6 Generalization: training error vs generalization error, validation-set estimation, IID assumptions, model complexity, underfitting and overfitting, polynomial feature construction, closed-form least-squares fitting with `torch.linalg.lstsq`, dataset-size effects, model selection, train/validation/test split roles, and simple K-fold cross-validation | `d2l/03_linear_ne/03_06_Generalization.ipynb` |
-| Day 12 | 2026-07-07 | D2L 3.7 Weight Decay: in-progress notes on why overfitting occurs, how weight size affects model complexity, the L2 penalty term, the role of regularization strength `lambda`, and the intuition behind weight decay | `d2l/03_linear_ne/03_07_Weight Decay.ipynb` |
+| Day 12 | 2026-07-07 ~ 2026-07-08 | D2L 3.7 Weight Decay: overfitting from high-dimensional features with limited data, weight size and model complexity, L2 penalty formulation, regularization strength `lambda`, direct weight decay implementation, train/validation loss comparison, and concise PyTorch usage with optimizer `weight_decay` | `d2l/03_linear_ne/03_07_Weight Decay.ipynb` |
 
 Next:
 
-- Continue D2L 3.7 Weight Decay with implementation examples and concise PyTorch optimizer usage
+- Start the next D2L section after 3.7 Weight Decay
 
 ## Public Repository Safety
 
