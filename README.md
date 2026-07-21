@@ -11,6 +11,8 @@ Current scope:
 - Concise linear regression implementation with `nn.Linear`, `nn.MSELoss`, and `torch.optim.SGD`
 - Generalization concepts including training error, validation/generalization error, IID assumptions, model complexity, underfitting, overfitting, dataset size effects, model selection, and cross-validation
 - Weight decay and L2 regularization notes for controlling model complexity
+- Softmax regression notes covering multiclass outputs, logits, softmax probabilities, cross-entropy loss, gradients, and PyTorch tensor shapes
+- Image classification dataset study scaffold with reproducible PyTorch environment setup
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -62,10 +64,12 @@ Each study file should make the learning target clear:
 | Day 10 | 2026-07-04 | D2L 3.5 Concise Implementation of Linear Regression: replacing manual `w`, `b`, squared loss, and SGD updates with `nn.Linear`, `nn.MSELoss`, `torch.optim.SGD`, and `DataLoader` while preserving the train loop flow of prediction, loss calculation, backpropagation, and parameter updates | `d2l/03_linear_ne/03_05_Concise Implementation of Linear Regression.ipynb` |
 | Day 11 | 2026-07-05 ~ 2026-07-06 | D2L 3.6 Generalization: training error vs generalization error, validation-set estimation, IID assumptions, model complexity, underfitting and overfitting, polynomial feature construction, closed-form least-squares fitting with `torch.linalg.lstsq`, dataset-size effects, model selection, train/validation/test split roles, and simple K-fold cross-validation | `d2l/03_linear_ne/03_06_Generalization.ipynb` |
 | Day 12 | 2026-07-07 ~ 2026-07-08 | D2L 3.7 Weight Decay: overfitting from high-dimensional features with limited data, weight size and model complexity, L2 penalty formulation, regularization strength `lambda`, direct weight decay implementation, train/validation loss comparison, and concise PyTorch usage with optimizer `weight_decay` | `d2l/03_linear_ne/03_07_Weight Decay.ipynb` |
+| Day 13 | 2026-07-12 ~ 2026-07-22 | D2L 4.1 Softmax Regression: regression vs classification, integer and one-hot labels, fully connected multiclass outputs, logits, softmax probabilities, cross-entropy loss, gradients, `nn.CrossEntropyLoss`, prediction with `argmax`, and tensor shape flow | `d2l/04_linear_neural_networks_for_classification/04_01_Softmax Regression.ipynb` |
+| Day 14 | 2026-07-22 | D2L 4.2 The Image Classification Dataset: notebook scaffold with reproducible PyTorch setup and environment version check | `d2l/04_linear_neural_networks_for_classification/04_02_The Image Classification Dataset.ipynb` |
 
 Next:
 
-- Start the next D2L section after 3.7 Weight Decay
+- Continue D2L 4.2 The Image Classification Dataset
 
 ## Public Repository Safety
 
