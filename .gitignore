@@ -25,6 +25,7 @@ docs/local/
 # Private/raw data
 data/private/
 data/raw/
+**/data/FashionMNIST/
 
 # Temporary outputs
 outputs/private/
