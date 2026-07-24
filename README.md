@@ -12,7 +12,7 @@ Current scope:
 - Generalization concepts including training error, validation/generalization error, IID assumptions, model complexity, underfitting, overfitting, dataset size effects, model selection, and cross-validation
 - Weight decay and L2 regularization notes for controlling model complexity
 - Softmax regression notes covering multiclass outputs, logits, softmax probabilities, cross-entropy loss, gradients, and PyTorch tensor shapes
-- Fashion-MNIST loading and preprocessing with torchvision
+- Fashion-MNIST preprocessing, visualization, and minibatch loading with torchvision
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -65,11 +65,11 @@ Each study file should make the learning target clear:
 | Day 11 | 2026-07-05 ~ 2026-07-06 | D2L 3.6 Generalization: training error vs generalization error, validation-set estimation, IID assumptions, model complexity, underfitting and overfitting, polynomial feature construction, closed-form least-squares fitting with `torch.linalg.lstsq`, dataset-size effects, model selection, train/validation/test split roles, and simple K-fold cross-validation | `d2l/03_linear_ne/03_06_Generalization.ipynb` |
 | Day 12 | 2026-07-07 ~ 2026-07-08 | D2L 3.7 Weight Decay: overfitting from high-dimensional features with limited data, weight size and model complexity, L2 penalty formulation, regularization strength `lambda`, direct weight decay implementation, train/validation loss comparison, and concise PyTorch usage with optimizer `weight_decay` | `d2l/03_linear_ne/03_07_Weight Decay.ipynb` |
 | Day 13 | 2026-07-12 ~ 2026-07-22 | D2L 4.1 Softmax Regression: regression vs classification, integer and one-hot labels, fully connected multiclass outputs, logits, softmax probabilities, cross-entropy loss, gradients, `nn.CrossEntropyLoss`, prediction with `argmax`, and tensor shape flow | `d2l/04_linear_neural_networks_for_classification/04_01_Softmax Regression.ipynb` |
-| Day 14 | 2026-07-22 ~ 2026-07-23 | D2L 4.2 The Image Classification Dataset: MNIST and Fashion-MNIST overview, `transforms.ToTensor()` preprocessing, torchvision dataset download and loading, and training/test dataset size checks | `d2l/04_linear_neural_networks_for_classification/04_02_The Image Classification Dataset.ipynb` |
+| Day 14 | 2026-07-22 ~ 2026-07-24 | D2L 4.2 The Image Classification Dataset: Fashion-MNIST loading and `ToTensor`/resize preprocessing, dataset inspection, label-to-class conversion, sample and minibatch visualization, `DataLoader` batching and shuffling, `drop_last`, loading-time comparison by batch size, and flattening image batches for linear layers | `d2l/04_linear_neural_networks_for_classification/04_02_The Image Classification Dataset.ipynb` |
 
 Next:
 
-- Continue D2L 4.2 with minibatch loading, label conversion, and sample visualization
+- Start D2L 4.3 The Base Classification Model
 
 ## Public Repository Safety
 
