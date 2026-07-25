@@ -13,6 +13,7 @@ Current scope:
 - Weight decay and L2 regularization notes for controlling model complexity
 - Softmax regression notes covering multiclass outputs, logits, softmax probabilities, cross-entropy loss, gradients, and PyTorch tensor shapes
 - Fashion-MNIST preprocessing, visualization, and minibatch loading with torchvision
+- Base classification model notes covering class prediction, accuracy, validation evaluation, and optimizer setup
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -66,10 +67,11 @@ Each study file should make the learning target clear:
 | Day 12 | 2026-07-07 ~ 2026-07-08 | D2L 3.7 Weight Decay: overfitting from high-dimensional features with limited data, weight size and model complexity, L2 penalty formulation, regularization strength `lambda`, direct weight decay implementation, train/validation loss comparison, and concise PyTorch usage with optimizer `weight_decay` | `d2l/03_linear_ne/03_07_Weight Decay.ipynb` |
 | Day 13 | 2026-07-12 ~ 2026-07-22 | D2L 4.1 Softmax Regression: regression vs classification, integer and one-hot labels, fully connected multiclass outputs, logits, softmax probabilities, cross-entropy loss, gradients, `nn.CrossEntropyLoss`, prediction with `argmax`, and tensor shape flow | `d2l/04_linear_neural_networks_for_classification/04_01_Softmax Regression.ipynb` |
 | Day 14 | 2026-07-22 ~ 2026-07-24 | D2L 4.2 The Image Classification Dataset: Fashion-MNIST loading and `ToTensor`/resize preprocessing, dataset inspection, label-to-class conversion, sample and minibatch visualization, `DataLoader` batching and shuffling, `drop_last`, loading-time comparison by batch size, and flattening image batches for linear layers | `d2l/04_linear_neural_networks_for_classification/04_02_The Image Classification Dataset.ipynb` |
+| Day 15 | 2026-07-25 | D2L 4.3 The Base Classification Model: class-score outputs, prediction with `argmax`, accuracy calculation, loss and accuracy roles, validation-set evaluation, batch-size-aware aggregation, SGD setup, and training/validation mode differences | `d2l/04_linear_neural_networks_for_classification/04_03_The Base Classification Model.ipynb` |
 
 Next:
 
-- Start D2L 4.3 The Base Classification Model
+- Start D2L 4.4 Softmax Regression Implementation from Scratch
 
 ## Public Repository Safety
 
