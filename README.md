@@ -14,6 +14,7 @@ Current scope:
 - Softmax regression notes covering multiclass outputs, logits, softmax probabilities, cross-entropy loss, gradients, and PyTorch tensor shapes
 - Fashion-MNIST preprocessing, visualization, and minibatch loading with torchvision
 - Base classification model notes covering class prediction, accuracy, validation evaluation, and optimizer setup
+- Softmax regression from-scratch implementation covering stable softmax, manual parameters, cross-entropy loss, accuracy, SGD, training and evaluation loops, learning curves, and Fashion-MNIST predictions
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -68,10 +69,11 @@ Each study file should make the learning target clear:
 | Day 13 | 2026-07-12 ~ 2026-07-22 | D2L 4.1 Softmax Regression: regression vs classification, integer and one-hot labels, fully connected multiclass outputs, logits, softmax probabilities, cross-entropy loss, gradients, `nn.CrossEntropyLoss`, prediction with `argmax`, and tensor shape flow | `d2l/04_linear_neural_networks_for_classification/04_01_Softmax Regression.ipynb` |
 | Day 14 | 2026-07-22 ~ 2026-07-24 | D2L 4.2 The Image Classification Dataset: Fashion-MNIST loading and `ToTensor`/resize preprocessing, dataset inspection, label-to-class conversion, sample and minibatch visualization, `DataLoader` batching and shuffling, `drop_last`, loading-time comparison by batch size, and flattening image batches for linear layers | `d2l/04_linear_neural_networks_for_classification/04_02_The Image Classification Dataset.ipynb` |
 | Day 15 | 2026-07-25 | D2L 4.3 The Base Classification Model: class-score outputs, prediction with `argmax`, accuracy calculation, loss and accuracy roles, validation-set evaluation, batch-size-aware aggregation, SGD setup, and training/validation mode differences | `d2l/04_linear_neural_networks_for_classification/04_03_The Base Classification Model.ipynb` |
+| Day 16 | 2026-07-27 ~ 2026-07-28 | D2L 4.4 Softmax Regression Implementation from Scratch: Fashion-MNIST flattening, dimension-wise sums and broadcasting, numerically stable softmax, manual weight and bias initialization, forward calculation, cross-entropy loss, accuracy, SGD updates, train/test evaluation, learning curves, prediction visualization, and practical implementation limitations | `d2l/04_linear_neural_networks_for_classification/04_04_Softmax Regression Implementation from Scratch.ipynb` |
 
 Next:
 
-- Start D2L 4.4 Softmax Regression Implementation from Scratch
+- Start D2L 4.5 Concise Implementation of Softmax Regression
 
 ## Public Repository Safety
 
