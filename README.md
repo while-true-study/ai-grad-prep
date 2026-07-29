@@ -16,6 +16,8 @@ Current scope:
 - Base classification model notes covering class prediction, accuracy, validation evaluation, and optimizer setup
 - Softmax regression from-scratch implementation covering stable softmax, manual parameters, cross-entropy loss, accuracy, SGD, training and evaluation loops, learning curves, and Fashion-MNIST predictions
 - Concise softmax regression implementation with `nn.Flatten`, `nn.Linear`, `nn.CrossEntropyLoss`, `torch.optim.SGD`, training and evaluation loops, learning curves, and Fashion-MNIST predictions
+- Classification generalization, test-set uncertainty, model complexity, and statistical learning theory
+- Distribution shift, risk correction, deployment environments, fairness, and feedback loops
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -52,30 +54,44 @@ Each study file should make the learning target clear:
 
 ## Study Log
 
-| Day | Date | Topic | Output |
-|---:|---|---|---|
-| Day 01 | 2026-06-16 ~ 2026-06-17 | D2L 2.1 Data Manipulation | `d2l/02_preliminaries/02_01_data_manipulation.ipynb` |
-| Day 02 | 2026-06-17 | D2L 2.2 Data Preprocessing: CSV sample creation, pandas DataFrame inspection, input/target split, missing value checks, numeric imputation, one-hot encoding, and DataFrame/Series to PyTorch Tensor conversion | `d2l/02_preliminaries/02_02_Data Preprocessing.ipynb`, `d2l/data/house_tiny.csv` |
-| Day 02 | 2026-06-17 | D2L 2.3 Linear Algebra: scalars, vectors, matrices, tensors, shape/ndim/numel checks, elementwise operations, reductions by dimension, dot product, matrix-vector product, matrix-matrix product, L1/L2 norms, and Frobenius norm | `d2l/02_preliminaries/02_03_linear_algebra.ipynb` |
-| Day 03 | 2026-06-17 ~ 2026-06-18 | D2L 2.4 Calculus: numerical differentiation and PyTorch autograd comparison, gradient/partial derivative/chain rule summary, a simple linear-model gradient descent update flow, and three PyTorch-style exercises with a link to the original D2L exercises | `d2l/02_preliminaries/02_04_Calculus.ipynb` |
-| Day 04 | 2026-06-18 ~ 2026-06-19 | D2L 2.5 Automatic Differentiation: PyTorch autograd flow, `requires_grad`, `backward()`, `.grad`, gradient accumulation and `zero_grad()`, scalar vs vector outputs, why `y.sum().backward()` is used, `detach()`, chain rule and computation graph, `loss.backward()` vs `optimizer.step()`, and the roles of `w`, `b`, `learning_rate`, and `gradient` in parameter updates | `d2l/02_preliminaries/02_05_Automatic Differentiation.ipynb` |
-| Day 05 | 2026-06-19 ~ 2026-06-20 | D2L 2.6 Probability and Statistics: probability vs statistics, coin-toss simulation, multinomial sampling, law of large numbers, sample space/event/random variable, joint and conditional probability, Bayes theorem and base rate, independence and conditional independence, expectation, variance, covariance, and aleatoric vs epistemic uncertainty | `d2l/02_preliminaries/02_06_Probability and Statistics.ipynb` |
-| Day 06 | 2026-06-23 | D2L 3.1 Linear Regression: notebook scaffold with study goals, environment setup, and implementation checklist for synthetic data generation, minibatch loading, training loop, and parameter comparison | `d2l/03_linear_ne/03_01_Linear Regression.ipynb` |
-| Day 07 | 2026-06-28 | D2L 3.2 Object-Oriented Design for Implementation: object-oriented training structure, D2L utility helpers, `Module`, `DataModule`, `Trainer`, `training_step`, `configure_optimizers`, dataloader flow, and the separation of data, model, loss, optimizer, and training loop responsibilities | `d2l/03_linear_ne/03_02_Object-Oriented Design for Implementation.ipynb` |
-| Day 08 | 2026-07-02 | D2L 3.3 Synthetic Regression Data: synthetic feature and label generation with `y = Xw + b + noise`, train/validation split, why `w.reshape(-1, 1)` is used, manual minibatch sampling, `TensorDataset`, `DataLoader`, and batch shape checks | `d2l/03_linear_ne/03_03_Synthetic Regression Data.ipynb` |
-| Day 09 | 2026-07-03 | D2L 3.4 Linear Regression Implementation from Scratch: manual parameter initialization, linear model definition, squared loss, SGD updates with `torch.no_grad()`, gradient reset, epoch training loop, validation loss checks, and learned-parameter comparison against `true_w` and `true_b` | `d2l/03_linear_ne/03_04_Linear Regression Implementation from Scratch.ipynb` |
-| Day 10 | 2026-07-04 | D2L 3.5 Concise Implementation of Linear Regression: replacing manual `w`, `b`, squared loss, and SGD updates with `nn.Linear`, `nn.MSELoss`, `torch.optim.SGD`, and `DataLoader` while preserving the train loop flow of prediction, loss calculation, backpropagation, and parameter updates | `d2l/03_linear_ne/03_05_Concise Implementation of Linear Regression.ipynb` |
-| Day 11 | 2026-07-05 ~ 2026-07-06 | D2L 3.6 Generalization: training error vs generalization error, validation-set estimation, IID assumptions, model complexity, underfitting and overfitting, polynomial feature construction, closed-form least-squares fitting with `torch.linalg.lstsq`, dataset-size effects, model selection, train/validation/test split roles, and simple K-fold cross-validation | `d2l/03_linear_ne/03_06_Generalization.ipynb` |
-| Day 12 | 2026-07-07 ~ 2026-07-08 | D2L 3.7 Weight Decay: overfitting from high-dimensional features with limited data, weight size and model complexity, L2 penalty formulation, regularization strength `lambda`, direct weight decay implementation, train/validation loss comparison, and concise PyTorch usage with optimizer `weight_decay` | `d2l/03_linear_ne/03_07_Weight Decay.ipynb` |
-| Day 13 | 2026-07-12 ~ 2026-07-22 | D2L 4.1 Softmax Regression: regression vs classification, integer and one-hot labels, fully connected multiclass outputs, logits, softmax probabilities, cross-entropy loss, gradients, `nn.CrossEntropyLoss`, prediction with `argmax`, and tensor shape flow | `d2l/04_linear_neural_networks_for_classification/04_01_Softmax Regression.ipynb` |
-| Day 14 | 2026-07-22 ~ 2026-07-24 | D2L 4.2 The Image Classification Dataset: Fashion-MNIST loading and `ToTensor`/resize preprocessing, dataset inspection, label-to-class conversion, sample and minibatch visualization, `DataLoader` batching and shuffling, `drop_last`, loading-time comparison by batch size, and flattening image batches for linear layers | `d2l/04_linear_neural_networks_for_classification/04_02_The Image Classification Dataset.ipynb` |
-| Day 15 | 2026-07-25 | D2L 4.3 The Base Classification Model: class-score outputs, prediction with `argmax`, accuracy calculation, loss and accuracy roles, validation-set evaluation, batch-size-aware aggregation, SGD setup, and training/validation mode differences | `d2l/04_linear_neural_networks_for_classification/04_03_The Base Classification Model.ipynb` |
-| Day 16 | 2026-07-27 ~ 2026-07-28 | D2L 4.4 Softmax Regression Implementation from Scratch: Fashion-MNIST flattening, dimension-wise sums and broadcasting, numerically stable softmax, manual weight and bias initialization, forward calculation, cross-entropy loss, accuracy, SGD updates, train/test evaluation, learning curves, prediction visualization, and practical implementation limitations | `d2l/04_linear_neural_networks_for_classification/04_04_Softmax Regression Implementation from Scratch.ipynb` |
-| Day 17 | 2026-07-28 ~ 2026-07-29 | D2L 4.5 Concise Implementation of Softmax Regression: Fashion-MNIST loading, `nn.Flatten` and `nn.Linear`, lazy initialization, cross-entropy loss, SGD optimizer, accuracy and evaluation functions, training and test loops, learning curves, and prediction confidence visualization | `d2l/04_linear_neural_networks_for_classification/04_05_Concise Implementation of Softmax Regression.ipynb` |
+### Chapter 2 — Preliminaries
+
+| Day | Date | Section | Key topics | Material |
+|---:|---|---|---|---|
+| 01 | Jun 16–17 | 2.1 Data Manipulation | tensors, indexing, broadcasting | [Notebook](d2l/02_preliminaries/02_01_data_manipulation.ipynb) |
+| 02 | Jun 17 | 2.2 Data Preprocessing | missing values, one-hot encoding, tensor conversion | [Notebook](<d2l/02_preliminaries/02_02_Data Preprocessing.ipynb>) · [Data](d2l/data/house_tiny.csv) |
+| 02 | Jun 17 | 2.3 Linear Algebra | reductions, matrix products, norms | [Notebook](d2l/02_preliminaries/02_03_linear_algebra.ipynb) |
+| 03 | Jun 17–18 | 2.4 Calculus | derivatives, chain rule, gradient descent | [Notebook](d2l/02_preliminaries/02_04_Calculus.ipynb) |
+| 04 | Jun 18–19 | 2.5 Automatic Differentiation | autograd, gradients, computation graphs | [Notebook](<d2l/02_preliminaries/02_05_Automatic Differentiation.ipynb>) |
+| 05 | Jun 19–20 | 2.6 Probability and Statistics | distributions, Bayes, expectation, uncertainty | [Notebook](<d2l/02_preliminaries/02_06_Probability and Statistics.ipynb>) |
+
+### Chapter 3 — Linear Neural Networks for Regression
+
+| Day | Date | Section | Key topics | Material |
+|---:|---|---|---|---|
+| 06 | Jun 23 | 3.1 Linear Regression | study scaffold and implementation plan | [Notebook](<d2l/03_linear_ne/03_01_Linear Regression.ipynb>) |
+| 07 | Jun 28 | 3.2 Object-Oriented Design | modules, data modules, trainer structure | [Notebook](<d2l/03_linear_ne/03_02_Object-Oriented Design for Implementation.ipynb>) |
+| 08 | Jul 2 | 3.3 Synthetic Regression Data | synthetic data, minibatches, `DataLoader` | [Notebook](<d2l/03_linear_ne/03_03_Synthetic Regression Data.ipynb>) |
+| 09 | Jul 3 | 3.4 Linear Regression from Scratch | parameters, squared loss, manual SGD | [Notebook](<d2l/03_linear_ne/03_04_Linear Regression Implementation from Scratch.ipynb>) |
+| 10 | Jul 4 | 3.5 Concise Linear Regression | `nn.Linear`, MSE loss, optimizer | [Notebook](<d2l/03_linear_ne/03_05_Concise Implementation of Linear Regression.ipynb>) |
+| 11 | Jul 5–6 | 3.6 Generalization | overfitting, model selection, cross-validation | [Notebook](d2l/03_linear_ne/03_06_Generalization.ipynb) |
+| 12 | Jul 7–8 | 3.7 Weight Decay | L2 regularization, model complexity | [Notebook](<d2l/03_linear_ne/03_07_Weight Decay.ipynb>) |
+
+### Chapter 4 — Linear Neural Networks for Classification
+
+| Day | Date | Section | Key topics | Material |
+|---:|---|---|---|---|
+| 13 | Jul 12–22 | 4.1 Softmax Regression | logits, softmax, cross-entropy | [Notebook](<d2l/04_linear_neural_networks_for_classification/04_01_Softmax Regression.ipynb>) |
+| 14 | Jul 22–24 | 4.2 Image Classification Dataset | Fashion-MNIST, preprocessing, minibatches | [Notebook](<d2l/04_linear_neural_networks_for_classification/04_02_The Image Classification Dataset.ipynb>) |
+| 15 | Jul 25 | 4.3 Base Classification Model | prediction, accuracy, validation | [Notebook](<d2l/04_linear_neural_networks_for_classification/04_03_The Base Classification Model.ipynb>) |
+| 16 | Jul 27–28 | 4.4 Softmax Regression from Scratch | stable softmax, manual SGD, evaluation | [Notebook](<d2l/04_linear_neural_networks_for_classification/04_04_Softmax Regression Implementation from Scratch.ipynb>) |
+| 17 | Jul 28–29 | 4.5 Concise Softmax Regression | PyTorch layers, training loop, predictions | [Notebook](<d2l/04_linear_neural_networks_for_classification/04_05_Concise Implementation of Softmax Regression.ipynb>) |
+| 18 | Jul 29 | 4.6 Generalization in Classification | test uncertainty, model complexity, VC dimension | [Notebook](<d2l/04_linear_neural_networks_for_classification/04_06_Generalization in Classification.ipynb>) |
+| 19 | Jul 30 | 4.7 Environment and Distribution Shift | shift types, risk correction, feedback loops | [Notebook](<d2l/04_linear_neural_networks_for_classification/04_07_Environment and Distribution Shift.ipynb>) |
 
 Next:
 
-- Start D2L 4.6 Generalization in Classification
+- Start D2L 5.1 Multilayer Perceptrons
 
 ## Public Repository Safety
 
