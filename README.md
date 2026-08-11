@@ -18,6 +18,8 @@ Current scope:
 - Concise softmax regression implementation with `nn.Flatten`, `nn.Linear`, `nn.CrossEntropyLoss`, `torch.optim.SGD`, training and evaluation loops, learning curves, and Fashion-MNIST predictions
 - Classification generalization, test-set uncertainty, model complexity, and statistical learning theory
 - Distribution shift, risk correction, deployment environments, fairness, and feedback loops
+- Multilayer perceptron concepts covering hidden layers, activation functions, and universal approximation
+- Fashion-MNIST MLP implementations from scratch and with `nn.Sequential`
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -89,9 +91,16 @@ Each study file should make the learning target clear:
 | 18 | Jul 29 | 4.6 Generalization in Classification | test uncertainty, model complexity, VC dimension | [Notebook](<d2l/04_linear_neural_networks_for_classification/04_06_Generalization in Classification.ipynb>) |
 | 19 | Jul 30 | 4.7 Environment and Distribution Shift | shift types, risk correction, feedback loops | [Notebook](<d2l/04_linear_neural_networks_for_classification/04_07_Environment and Distribution Shift.ipynb>) |
 
+### Chapter 5 — Multilayer Perceptrons
+
+| Day | Date | Section | Key topics | Material |
+|---:|---|---|---|---|
+| 20 | Aug 1–7 | 5.1 Multilayer Perceptrons | hidden layers, activation functions, universal approximation | [Notebook](<d2l/05_Multilayer Perceptrons/05_01_Multilayer Perceptrons.ipynb>) |
+| 21 | Aug 8–11 | 5.2 Implementation of Multilayer Perceptrons | manual parameters, ReLU, training loop, `nn.Sequential` | [Notebook](<d2l/05_Multilayer Perceptrons/05_02_Implementation of Multilayer Perceptrons.ipynb>) |
+
 Next:
 
-- Start D2L 5.1 Multilayer Perceptrons
+- Start D2L 5.3 Forward Propagation, Backward Propagation, and Computational Graphs
 
 ## Public Repository Safety
 
