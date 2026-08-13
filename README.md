@@ -22,6 +22,7 @@ Current scope:
 - Fashion-MNIST MLP implementations from scratch and with `nn.Sequential`
 - Forward propagation, backpropagation, computational graphs, the chain rule, and intermediate-value storage
 - Numerical stability, vanishing and exploding gradients, symmetry, and Xavier initialization
+- Deep learning generalization, generalization gaps, overparameterization, double descent, inductive bias, early stopping, and regularization
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -101,10 +102,11 @@ Each study file should make the learning target clear:
 | 21 | Aug 8–11 | 5.2 Implementation of Multilayer Perceptrons | manual parameters, ReLU, training loop, `nn.Sequential` | [Notebook](<d2l/05_Multilayer Perceptrons/05_02_Implementation of Multilayer Perceptrons.ipynb>) |
 | 22 | Aug 11 | 5.3 Forward Propagation, Backward Propagation, and Computational Graphs | forward propagation, backpropagation, computational graphs, chain rule | [Notebook](<d2l/05_Multilayer Perceptrons/05_03_Forward Propagation, Backward Propagation, and Computational Graphs.ipynb>) |
 | 23 | Aug 12–13 | 5.4 Numerical Stability and Initialization | vanishing gradients, exploding gradients, symmetry, Xavier initialization | [Notebook](<d2l/05_Multilayer Perceptrons/05_04_Numerical Stability and Initialization.ipynb>) |
+| 24 | Aug 13 | 5.5 Generalization in Deep Learning | generalization gap, overparameterization, double descent, inductive bias, early stopping | [Notebook](<d2l/05_Multilayer Perceptrons/05_05_Generalization in Deep Learning.ipynb>) |
 
 Next:
 
-- Start D2L 5.5 Generalization in Deep Learning
+- Start D2L 5.6 Dropout
 
 ## Public Repository Safety
 
