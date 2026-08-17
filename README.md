@@ -26,6 +26,7 @@ Current scope:
 - Dropout regularization covering random activation masking, inverted dropout scaling, training and evaluation modes, and PyTorch implementation
 - Kaggle house-price regression covering mixed-type preprocessing, log-target prediction, K-fold cross-validation, ensembling, and submission generation
 - PyTorch layers and modules covering custom `nn.Module` classes, `forward`, module composition, shared layers, buffers, and control flow
+- PyTorch parameter management covering parameter inspection, gradients, named parameters, optimizers, and parameter sharing
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -114,10 +115,11 @@ Each study file should make the learning target clear:
 | Day | Date | Section | Key topics | Material |
 |---:|---|---|---|---|
 | 27 | Aug 16–17 | 6.1 Layers and Modules | `nn.Module`, `forward`, custom sequential modules, control flow, buffers, nested modules | [Notebook](<d2l/06_Builders’ Guide/06_01_Layers and Modules.ipynb>) |
+| 28 | Aug 17 | 6.2 Parameter Management | parameter access, `state_dict`, gradients, named parameters, optimizers, parameter sharing | [Notebook](<d2l/06_Builders’ Guide/06_02_Parameter Management.ipynb>) |
 
 Next:
 
-- Continue to D2L 6.2, Parameter Management
+- Continue to D2L 6.3, Parameter Initialization
 
 ## Public Repository Safety
 
