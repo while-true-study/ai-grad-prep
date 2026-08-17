@@ -25,6 +25,7 @@ Current scope:
 - Deep learning generalization, generalization gaps, overparameterization, double descent, inductive bias, early stopping, and regularization
 - Dropout regularization covering random activation masking, inverted dropout scaling, training and evaluation modes, and PyTorch implementation
 - Kaggle house-price regression covering mixed-type preprocessing, log-target prediction, K-fold cross-validation, ensembling, and submission generation
+- PyTorch layers and modules covering custom `nn.Module` classes, `forward`, module composition, shared layers, buffers, and control flow
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -108,9 +109,15 @@ Each study file should make the learning target clear:
 | 25 | Aug 15 | 5.6 Dropout | activation masking, inverted dropout, training and evaluation modes, regularization | [Notebook](<d2l/05_Multilayer Perceptrons/05_06_Dropout.ipynb>) |
 | 26 | Aug 15 | 5.7 Predicting House Prices on Kaggle | preprocessing, log-price regression, K-fold validation, ensemble prediction | [Notebook](<d2l/05_Multilayer Perceptrons/05_07_Predicting House Prices on Kaggle.ipynb>) · [Data](<d2l/05_Multilayer Perceptrons/data>) · [Submission](<d2l/05_Multilayer Perceptrons/submission.csv>) |
 
+### Chapter 6 — Builders' Guide
+
+| Day | Date | Section | Key topics | Material |
+|---:|---|---|---|---|
+| 27 | Aug 16–17 | 6.1 Layers and Modules | `nn.Module`, `forward`, custom sequential modules, control flow, buffers, nested modules | [Notebook](<d2l/06_Builders’ Guide/06_01_Layers and Modules.ipynb>) |
+
 Next:
 
-- Continue to D2L Chapter 6, Builders' Guide
+- Continue to D2L 6.2, Parameter Management
 
 ## Public Repository Safety
 
