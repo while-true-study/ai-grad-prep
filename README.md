@@ -124,10 +124,11 @@ Each study file should make the learning target clear:
 | 30 | Aug 20 | 6.4 Lazy Initialization | deferred shape inference, `nn.LazyLinear`, first-forward initialization, dummy-input dry runs | [Notebook](<d2l/06_Builders’ Guide/06_04_Lazy Initialization.ipynb>) |
 | 31 | Aug 20 | 6.5 Custom Layers | parameter-free modules, trainable parameters, custom forward computation, autograd integration | [Notebook](<d2l/06_Builders’ Guide/06_05_Custom Layers.ipynb>) |
 | 32 | Aug 21 | 6.6 File I/O | tensor serialization, `state_dict`, parameter restoration, evaluation mode, checkpoint verification | [Notebook](<d2l/06_Builders’ Guide/06_06_File I,O.ipynb>) |
+| 33 | Aug 21 | 6.7 GPUs | CUDA availability, device selection, tensor and model placement, multi-GPU indexing, transfer overhead | [Notebook](<d2l/06_Builders’ Guide/06_07_GPUs.ipynb>) |
 
 Next:
 
-- Continue to D2L 6.7, GPUs
+- Continue to D2L Chapter 7, Convolutional Neural Networks
 
 ## Public Repository Safety
 
