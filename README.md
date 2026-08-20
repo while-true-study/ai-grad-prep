@@ -28,6 +28,7 @@ Current scope:
 - PyTorch layers and modules covering custom `nn.Module` classes, `forward`, module composition, shared layers, buffers, and control flow
 - PyTorch parameter management covering parameter inspection, gradients, named parameters, optimizers, and parameter sharing
 - PyTorch parameter initialization covering default initialization, custom initializers, Xavier initialization, and direct parameter updates
+- PyTorch lazy initialization covering deferred shape inference, `nn.LazyLinear`, first-forward initialization, and dummy-input dry runs
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -118,10 +119,11 @@ Each study file should make the learning target clear:
 | 27 | Aug 16–17 | 6.1 Layers and Modules | `nn.Module`, `forward`, custom sequential modules, control flow, buffers, nested modules | [Notebook](<d2l/06_Builders’ Guide/06_01_Layers and Modules.ipynb>) |
 | 28 | Aug 17 | 6.2 Parameter Management | parameter access, `state_dict`, gradients, named parameters, optimizers, parameter sharing | [Notebook](<d2l/06_Builders’ Guide/06_02_Parameter Management.ipynb>) |
 | 29 | Aug 19 | 6.3 Parameter Initialization | default initialization, custom initializers, Xavier initialization, direct parameter updates | [Notebook](<d2l/06_Builders’ Guide/06_03_Parameter Initialization.ipynb>) |
+| 30 | Aug 20 | 6.4 Lazy Initialization | deferred shape inference, `nn.LazyLinear`, first-forward initialization, dummy-input dry runs | [Notebook](<d2l/06_Builders’ Guide/06_04_Lazy Initialization.ipynb>) |
 
 Next:
 
-- Continue to D2L 6.4, Lazy Initialization
+- Continue to D2L 6.5, Custom Layers
 
 ## Public Repository Safety
 
