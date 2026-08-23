@@ -32,6 +32,7 @@ Current scope:
 - PyTorch custom layers covering parameter-free modules, trainable `nn.Parameter` values, custom forward computation, and autograd integration
 - PyTorch file I/O covering tensor serialization, `state_dict`, parameter restoration, evaluation mode, and checkpoint verification
 - Convolutional neural network foundations covering spatial structure, translation equivariance, locality, weight sharing, channels, filters, and `nn.Conv2d` parameter shapes
+- Image convolution notes covering 2D cross-correlation, output shapes, feature maps, edge detection, learnable kernels, and receptive fields
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -132,10 +133,11 @@ Each study file should make the learning target clear:
 | Day | Date | Section | Key topics | Material |
 |---:|---|---|---|---|
 | 34 | Aug 22–24 | 7.1 From Fully Connected Layers to Convolutions | spatial structure, translation equivariance, locality, weight sharing, channels, filters, `nn.Conv2d` | [Notebook](<d2l/07_Convolutional Neural Networks/07_01_From Fully Connected Layers to Convolutions.ipynb>) |
+| 35 | Aug 24 | 7.2 Convolutions for Images | 2D cross-correlation, output shapes, feature maps, edge detection, kernel learning, receptive fields | [Notebook](<d2l/07_Convolutional Neural Networks/07_02_Convolutions for Images.ipynb>) |
 
 Next:
 
-- Continue to D2L 7.2, Convolutions for Images
+- Continue to D2L 7.3, Padding and Stride
 
 ## Public Repository Safety
 
