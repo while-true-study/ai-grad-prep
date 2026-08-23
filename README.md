@@ -31,6 +31,7 @@ Current scope:
 - PyTorch lazy initialization covering deferred shape inference, `nn.LazyLinear`, first-forward initialization, and dummy-input dry runs
 - PyTorch custom layers covering parameter-free modules, trainable `nn.Parameter` values, custom forward computation, and autograd integration
 - PyTorch file I/O covering tensor serialization, `state_dict`, parameter restoration, evaluation mode, and checkpoint verification
+- Convolutional neural network foundations covering spatial structure, translation equivariance, locality, weight sharing, channels, filters, and `nn.Conv2d` parameter shapes
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -126,9 +127,15 @@ Each study file should make the learning target clear:
 | 32 | Aug 21 | 6.6 File I/O | tensor serialization, `state_dict`, parameter restoration, evaluation mode, checkpoint verification | [Notebook](<d2l/06_Builders’ Guide/06_06_File I,O.ipynb>) |
 | 33 | Aug 21 | 6.7 GPUs | CUDA availability, device selection, tensor and model placement, multi-GPU indexing, transfer overhead | [Notebook](<d2l/06_Builders’ Guide/06_07_GPUs.ipynb>) |
 
+### Chapter 7 — Convolutional Neural Networks
+
+| Day | Date | Section | Key topics | Material |
+|---:|---|---|---|---|
+| 34 | Aug 22–24 | 7.1 From Fully Connected Layers to Convolutions | spatial structure, translation equivariance, locality, weight sharing, channels, filters, `nn.Conv2d` | [Notebook](<d2l/07_Convolutional Neural Networks/07_01_From Fully Connected Layers to Convolutions.ipynb>) |
+
 Next:
 
-- Continue to D2L Chapter 7, Convolutional Neural Networks
+- Continue to D2L 7.2, Convolutions for Images
 
 ## Public Repository Safety
 
