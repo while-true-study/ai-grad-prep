@@ -34,6 +34,7 @@ Current scope:
 - Convolutional neural network foundations covering spatial structure, translation equivariance, locality, weight sharing, channels, filters, and `nn.Conv2d` parameter shapes
 - Image convolution notes covering 2D cross-correlation, output shapes, feature maps, edge detection, learnable kernels, and receptive fields
 - Convolution padding and stride notes covering output-size calculations, spatial-size preservation, odd-sized kernels, downsampling, and PyTorch `nn.Conv2d` settings
+- Multiple input and output channel notes covering channel-wise cross-correlation, filter banks, convolution weight shapes, feature maps, and 1×1 convolution
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -136,10 +137,11 @@ Each study file should make the learning target clear:
 | 34 | Aug 22–24 | 7.1 From Fully Connected Layers to Convolutions | spatial structure, translation equivariance, locality, weight sharing, channels, filters, `nn.Conv2d` | [Notebook](<d2l/07_Convolutional Neural Networks/07_01_From Fully Connected Layers to Convolutions.ipynb>) |
 | 35 | Aug 24 | 7.2 Convolutions for Images | 2D cross-correlation, output shapes, feature maps, edge detection, kernel learning, receptive fields | [Notebook](<d2l/07_Convolutional Neural Networks/07_02_Convolutions for Images.ipynb>) |
 | 36 | Aug 25 | 7.3 Padding and Stride | padding, stride, output-size calculations, spatial-size preservation, downsampling, `nn.Conv2d` | [Notebook](<d2l/07_Convolutional Neural Networks/07_03_Padding and Stride.ipynb>) |
+| 37 | Aug 26 | 7.4 Multiple Input and Multiple Output Channels | channel-wise cross-correlation, multiple filters, weight shapes, feature maps, 1×1 convolution | [Notebook](<d2l/07_Convolutional Neural Networks/07_04_Multiple Input and Multiple Output Channels.ipynb>) |
 
 Next:
 
-- Continue to D2L 7.4, Multiple Input and Multiple Output Channels
+- Continue to D2L 7.5, Pooling
 
 ## Public Repository Safety
 
