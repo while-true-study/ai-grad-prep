@@ -36,6 +36,7 @@ Current scope:
 - Convolution padding and stride notes covering output-size calculations, spatial-size preservation, odd-sized kernels, downsampling, and PyTorch `nn.Conv2d` settings
 - Multiple input and output channel notes covering channel-wise cross-correlation, filter banks, convolution weight shapes, feature maps, and 1×1 convolution
 - Pooling notes covering max and average pooling, window size, stride, output-size calculations, channel-wise operation, and `nn.MaxPool2d`
+- LeNet convolutional neural network implementation covering convolution and average-pooling stages, feature-map shape tracking, flattening, fully connected classification, Fashion-MNIST training, and evaluation
 - Small reproducible exercises suitable for a public repository
 
 ## Environment
@@ -140,10 +141,11 @@ Each study file should make the learning target clear:
 | 36 | Aug 25 | 7.3 Padding and Stride | padding, stride, output-size calculations, spatial-size preservation, downsampling, `nn.Conv2d` | [Notebook](<d2l/07_Convolutional Neural Networks/07_03_Padding and Stride.ipynb>) |
 | 37 | Aug 26 | 7.4 Multiple Input and Multiple Output Channels | channel-wise cross-correlation, multiple filters, weight shapes, feature maps, 1×1 convolution | [Notebook](<d2l/07_Convolutional Neural Networks/07_04_Multiple Input and Multiple Output Channels.ipynb>) |
 | 38 | Aug 26 | 7.5 Pooling | max pooling, average pooling, window size, stride, output-size calculations, channel-wise operation, `nn.MaxPool2d` | [Notebook](<d2l/07_Convolutional Neural Networks/07_05_Pooling.ipynb>) |
+| 39 | Aug 26 | 7.6 Convolutional Neural Networks (LeNet) | LeNet architecture, convolutions, average pooling, feature-map shapes, fully connected layers, Fashion-MNIST training and evaluation | [Notebook](<d2l/07_Convolutional Neural Networks/07_06_Convolutional Neural Networks (LeNet).ipynb>) |
 
 Next:
 
-- Continue to D2L 7.6, Convolutional Neural Networks (LeNet)
+- Continue to D2L 7.7, AlexNet
 
 ## Public Repository Safety
 
