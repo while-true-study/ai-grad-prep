@@ -22,5 +22,12 @@
 - [05 Multilayer Perceptrons](./05_Multilayer%20Perceptrons)
 - [06 Builders' Guide](./06_Builders%E2%80%99%20Guide)
 - [07 Convolutional Neural Networks](./07_Convolutional%20Neural%20Networks)
+- [08 Modern Convolutional Neural Networks](./08_Modern%20Convolutional%20Neural%20Networks)
+
+### Chapter 08 Progress
+
+| Section | Topic | Status |
+|---:|---|---|
+| 08.01 | [Deep Convolutional Neural Networks (AlexNet)](./08_Modern%20Convolutional%20Neural%20Networks/08_01_Deep%20Convolutional%20Neural%20Networks%20%28AlexNet%29.ipynb) | Completed |
 
 각 chapter의 세부 학습 내용은 해당 Jupyter Notebook에서 확인할 수 있습니다.
