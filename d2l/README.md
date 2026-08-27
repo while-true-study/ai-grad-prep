@@ -1,0 +1,26 @@
+# Dive into Deep Learning
+
+[Dive into Deep Learning](https://d2l.ai/)을 기반으로 딥러닝 이론을 학습하고 PyTorch로 직접 구현한 기록입니다.
+
+## Progress
+
+| Chapter | Topic | Status |
+|---:|---|---|
+| 02 | Preliminaries | Completed |
+| 03 | Linear Neural Networks for Regression | Completed |
+| 04 | Linear Neural Networks for Classification | Completed |
+| 05 | Multilayer Perceptrons | Completed |
+| 06 | Builders' Guide | Completed |
+| 07 | Convolutional Neural Networks | Completed |
+| 08 | Modern Convolutional Neural Networks | In Progress |
+
+## Chapters
+
+- [02 Preliminaries](./02_preliminaries)
+- [03 Linear Neural Networks for Regression](./03_linear_neural_networks_for_regression)
+- [04 Linear Neural Networks for Classification](./04_linear_neural_networks_for_classification)
+- [05 Multilayer Perceptrons](./05_Multilayer%20Perceptrons)
+- [06 Builders' Guide](./06_Builders%E2%80%99%20Guide)
+- [07 Convolutional Neural Networks](./07_Convolutional%20Neural%20Networks)
+
+각 chapter의 세부 학습 내용은 해당 Jupyter Notebook에서 확인할 수 있습니다.
