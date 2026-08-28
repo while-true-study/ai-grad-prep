@@ -29,5 +29,6 @@
 | Section | Topic | Status |
 |---:|---|---|
 | 08.01 | [Deep Convolutional Neural Networks (AlexNet)](./08_Modern%20Convolutional%20Neural%20Networks/08_01_Deep%20Convolutional%20Neural%20Networks%20%28AlexNet%29.ipynb) | Completed |
+| 08.02 | [Networks Using Blocks (VGG)](./08_Modern%20Convolutional%20Neural%20Networks/08_02_Networks%20Using%20Blocks%20%28VGG%29.ipynb) | Completed |
 
 각 chapter의 세부 학습 내용은 해당 Jupyter Notebook에서 확인할 수 있습니다.
