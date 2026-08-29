@@ -31,8 +31,8 @@ ai-grad-prep/
 
 | Area                    | Status      |
 | ----------------------- | ----------- |
-| Dive into Deep Learning | In Progress |
+| Dive into Deep Learning | In Progress (Chapter 08.05: Batch Normalization) |
 | ML / Kaggle Practice    | In Progress |
 | Research Experiments    | Planned     |
 
-세부 학습 내용과 진행 상황은 각 디렉터리의 README에서 관리합니다.
+세부 학습 내용과 진행 상황은 [D2L 학습 현황](./d2l/README.md)을 비롯한 각 디렉터리의 README에서 관리합니다.
