@@ -31,7 +31,7 @@ ai-grad-prep/
 
 | Area                    | Status      |
 | ----------------------- | ----------- |
-| Dive into Deep Learning | In Progress (Chapter 08.05: Batch Normalization) |
+| Dive into Deep Learning | In Progress (Chapter 08.06: Residual Networks and ResNeXt) |
 | ML / Kaggle Practice    | In Progress |
 | Research Experiments    | Planned     |
 
