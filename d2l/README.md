@@ -12,7 +12,7 @@
 | 05 | Multilayer Perceptrons | Completed |
 | 06 | Builders' Guide | Completed |
 | 07 | Convolutional Neural Networks | Completed |
-| 08 | Modern Convolutional Neural Networks | In Progress |
+| 08 | Modern Convolutional Neural Networks | Completed |
 
 ## Chapters
 
@@ -35,5 +35,6 @@
 | 08.05 | [Batch Normalization](./08_Modern%20Convolutional%20Neural%20Networks/08_05_Batch%20Normalization.ipynb) | Completed |
 | 08.06 | [Residual Networks (ResNet) and ResNeXt](./08_Modern%20Convolutional%20Neural%20Networks/08_06_Residual%20Networks%20%28ResNet%29%20and%20ResNeXt.ipynb) | Completed |
 | 08.07 | [Densely Connected Networks (DenseNet)](./08_Modern%20Convolutional%20Neural%20Networks/08_07_Densely%20Connected%20Networks%20%28DenseNet%29.ipynb) | Completed |
+| 08.08 | [Designing Convolution Network Architectures](./08_Modern%20Convolutional%20Neural%20Networks/08_08_Designing%20Convolution%20Network%20Architectures.ipynb) | Completed |
 
 각 chapter의 세부 학습 내용은 해당 Jupyter Notebook에서 확인할 수 있습니다.

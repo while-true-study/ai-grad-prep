@@ -31,7 +31,7 @@ ai-grad-prep/
 
 | Area                    | Status      |
 | ----------------------- | ----------- |
-| Dive into Deep Learning | In Progress (Chapter 08.07: Densely Connected Networks (DenseNet)) |
+| Dive into Deep Learning | In Progress (Chapter 08.08: Designing Convolution Network Architectures) |
 | ML / Kaggle Practice    | In Progress |
 | Research Experiments    | Planned     |
 
