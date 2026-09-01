@@ -31,7 +31,7 @@ ai-grad-prep/
 
 | Area                    | Status      |
 | ----------------------- | ----------- |
-| Dive into Deep Learning | In Progress (Chapter 08.08: Designing Convolution Network Architectures) |
+| Dive into Deep Learning | In Progress (Chapter 09.01: Working with Sequences) |
 | ML / Kaggle Practice    | In Progress |
 | Research Experiments    | Planned     |
 
