@@ -44,5 +44,6 @@
 | Section | Topic | Status |
 |---:|---|---|
 | 09.01 | [Working with Sequences](./09_Recurrent%20Neural%20Networks/09_01_Working%20with%20Sequences.ipynb) | Completed |
+| 09.02 | [Converting Raw Text into Sequence Data](./09_Recurrent%20Neural%20Networks/09_02_Converting%20Raw%20Text%20into%20Sequence%20Data.ipynb) | Completed |
 
 각 chapter의 세부 학습 내용은 해당 Jupyter Notebook에서 확인할 수 있습니다.

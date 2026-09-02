@@ -27,6 +27,7 @@ docs/local/
 data/private/
 data/raw/
 **/data/FashionMNIST/
+**/data/timemachine.txt
 
 # Temporary outputs
 outputs/private/
