@@ -31,7 +31,7 @@ ai-grad-prep/
 
 | Area                    | Status      |
 | ----------------------- | ----------- |
-| Dive into Deep Learning | In Progress (Chapter 09.02: Converting Raw Text into Sequence Data) |
+| Dive into Deep Learning | In Progress (Chapter 09.03: Language Models) |
 | ML / Kaggle Practice    | In Progress |
 | Research Experiments    | Planned     |
 
