@@ -31,7 +31,7 @@ ai-grad-prep/
 
 | Area                    | Status      |
 | ----------------------- | ----------- |
-| Dive into Deep Learning | In Progress (Chapter 09.03: Language Models) |
+| Dive into Deep Learning | In Progress (Chapter 09.04: Recurrent Neural Networks) |
 | ML / Kaggle Practice    | In Progress |
 | Research Experiments    | Planned     |
 
