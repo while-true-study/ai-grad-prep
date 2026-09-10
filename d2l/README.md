@@ -47,5 +47,6 @@
 | 09.02 | [Converting Raw Text into Sequence Data](./09_Recurrent%20Neural%20Networks/09_02_Converting%20Raw%20Text%20into%20Sequence%20Data.ipynb) | Completed |
 | 09.03 | [Language Models](./09_Recurrent%20Neural%20Networks/09_03_Language%20Models.ipynb) | Completed |
 | 09.04 | [Recurrent Neural Networks](./09_Recurrent%20Neural%20Networks/09_04_Recurrent%20Neural%20Networks.ipynb) | Completed |
+| 09.05 | [Recurrent Neural Network Implementation from Scratch](./09_Recurrent%20Neural%20Networks/09_05_Recurrent%20Neural%20Network%20Implementation%20from%20Scratch.ipynb) | Completed |
 
 각 chapter의 세부 학습 내용은 해당 Jupyter Notebook에서 확인할 수 있습니다.
